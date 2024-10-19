@@ -23,6 +23,5 @@ ItemMeta itemMeta = testItem.getItemMeta();
 itemMeta.setDisplayName(ChatColor.RED + "Rìu siêu vip");
 testItem.setItemMeta(itemMeta);
 
-// Thêm item vào túi đồ
+// Add item to inventory
 playerInventoryDatabase.storeOrDropItem(testItem, player.getGameMode());
-``` java
